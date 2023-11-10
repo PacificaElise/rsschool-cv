@@ -4,6 +4,7 @@
 
 *Profile: https://www.linkedin.com/in/tatiana-ivanova-85370a239* \
 *E-mail: tati.ivanova.87@gmail.com* \
+*Telegram: @tatianaivanova87* \
 *Mobile:* \
 *+375 (29) 383-19-13* \
 *+7 (919) 021-82-74*
@@ -69,3 +70,9 @@ ____
 #### 🎨 Graphic editor:
 
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+
+#### 🎓 Education
+* Frontend Developer course in Itgirlschool;
+* Received higher education in Gomel State University as economist-manager.
+
+English level - B1
