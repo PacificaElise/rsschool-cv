@@ -7,7 +7,7 @@
 *Telegram: @tatianaivanova87* \
 *Mobile:* \
 *+375 (29) 383-19-13* \
-*+7 (919) 021-82-74*
+*+7 (919) 021-82-74*\
 ___
 
 #### 👩‍💻 About me:
@@ -25,7 +25,7 @@ String.prototype.toJadenCase = function() {
 };
 ```
 
-I am open to offers for the position of frontend developer, I strive to develop together with the company. I will be glad to cooperate.
+I am open to offers for the position of frontend developer, I strive to develop together with the company. I will be glad to cooperate.\
 ___
 
 #### 🎯 My goals:
@@ -33,7 +33,7 @@ ___
 * Learn to write clean code;
 * Work in a friendly development team;
 * Work on interesting projects;
-* Contribute to the success of the company.
+* Contribute to the success of the company.\
 ___
 
 #### 📔 My experience:
@@ -46,7 +46,7 @@ https://pacificaelise.github.io/ProjectHackathon/
 https://pacificaelise.github.io/english-cards/
 * Developed online store website based on Figma layout\
 https://pacificaelise.github.io/Team-project/
-* As part of participation in the selection for an internship, I implemented an online library project 
+* As part of participation in the selection for an internship, I implemented an online library project \
 ____
 
 #### 🧰 Programming languages and technologies:
@@ -69,7 +69,7 @@ ____
 
 #### 🎨 Graphic editor:
 
-![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) \
 ___
 
 #### 🎓 Education
