@@ -44,9 +44,9 @@ h3 :after {
   transition: ease-out 1s;
 }
 
-.header {
+.basic-header {
   position: absolute;
-  top: 330px;
+  top: 24rem;
   right: 0;
   left: 0;
   width: 100%;
@@ -55,8 +55,11 @@ h3 :after {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  gap: 6rem;
-  flex-wrap: wrap;
+  gap: 4rem;
+}
+
+.add-header {
+  display: none;
 }
 
 .name {
@@ -88,6 +91,7 @@ h3 :after {
   font-size: 1.5rem;
   justify-content: center;
   align-items: flex-start;
+  padding: 0.5rem;
 }
 
 .contacts p {
@@ -113,22 +117,23 @@ h3 :after {
 .content {
   width: 100%;
   height: 100%;
-  margin: 0 auto;
+  margin: 0 auto 1rem auto;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
+  flex: 1 1 auto;
 }
 
 aside {
-  max-width: 35rem;
-  height: 100%;
+  width: 40%;
+  min-height: 100%;
   background-color: rgb(33, 29, 29);
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6rem;
   font-size: 2rem;
   font-weight: 700;
 }
@@ -139,7 +144,6 @@ aside {
 
 .photo {
   width: 100%;
-  height: 100%;
 }
 
 img {
@@ -159,20 +163,133 @@ li {
 }
 
 section {
-  max-width: calc(100% - 39rem);
-  padding: 3rem;
-  height: 100%;
+  width: 60%;
+  min-height: 100%;
+  padding: 1.5rem 3rem;
   font-size: 1.5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+  gap: 2rem;
+}
+
+.about-me {
+  width: 100%;
 }
 
 .experience {
-  margin-top: 15rem;
+  width: 100%;
+  margin-top: 19rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.education {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.time {
+  width: 80px;
+  font-weight: 700;
+}
+
+.experience-section,
+.education-section {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 3rem;
+}
+
+.experience-section ul {
+  list-style-type: none;
+}
+
+.experience-section ul li::before {
+  content: '►';
+  padding-right: 0.5em;
 }
 
 .footer {
+  width: 100%;
   margin-top: auto;
+  height: 30px;
+  padding: 2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  background-color: rgba(25, 160, 142, 0.3);
+}
+
+@media (max-width: 992px) {
+  .basic-header {
+    display: none;
+  }
+  .add-header {
+    width: 100%;
+    height: 12rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .experience {
+    margin-top: 15rem;
+  }
+}
+
+@media (max-width: 544px) {
+  .content {
+    flex-direction: column;
+  }
+
+  .basic-header {
+    top: 41rem;
+    display: flex;
+    height: 25rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    color: #ffffff;
+  }
+
+  .contacts {
+    padding: 1.5rem;
+  }
+
+  .name :first-child {
+    font-size: 2rem;
+  }
+
+  .add-header {
+    display: none;
+  }
+
+  aside {
+    width: 100%;
+    padding: 0;
+    align-items: flex-start;
+  }
+
+  section {
+    width: 100%;
+    padding: 0.5rem;
+  }
+
+  .skills {
+    margin-top: 17rem;
+  }
+
+  .experience {
+    margin-top: 0;
+  }
 }
