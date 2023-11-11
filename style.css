@@ -25,23 +25,13 @@ a {
 
 h3 {
   text-transform: uppercase;
-  margin: 1rem;
+  margin: 3rem 1rem 1rem 1rem;
   font-size: 2rem;
   font-weight: 700;
-}
-
-h3 :after {
-  content: '';
-  display: block;
-  height: 3px;
-  background-color: rgb(25, 160, 142);
-  margin: 10px auto 0;
-  transition: 1s;
-}
-
-h3 :after {
-  width: 250px;
-  transition: ease-out 1s;
+  text-decoration: underline;
+  text-decoration-color: rgb(25, 160, 142);
+  text-decoration-thickness: 4px;
+  text-underline-offset: 10px;
 }
 
 .basic-header {
@@ -133,9 +123,12 @@ aside {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  gap: 6rem;
   font-size: 2rem;
   font-weight: 700;
+}
+
+ul :last-child {
+  border-bottom: 3px solid rgb(116, 114, 114);
 }
 
 .skills {
@@ -180,10 +173,14 @@ section {
 
 .experience {
   width: 100%;
-  margin-top: 19rem;
+  margin-top: 16rem;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+}
+
+.experience ul :last-child {
+  border-bottom: none;
 }
 
 .education {
@@ -227,7 +224,7 @@ section {
   background-color: rgba(25, 160, 142, 0.3);
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1050px) {
   .basic-header {
     display: none;
   }
@@ -243,7 +240,7 @@ section {
   }
 
   .experience {
-    margin-top: 15rem;
+    margin-top: 12rem;
   }
 }
 
@@ -256,6 +253,7 @@ section {
     top: 41rem;
     display: flex;
     height: 25rem;
+    width: 100%;
     flex-direction: column;
     align-items: flex-start;
     gap: 1rem;
@@ -264,6 +262,11 @@ section {
 
   .contacts {
     padding: 1.5rem;
+  }
+
+  .name {
+    width: 100%;
+    padding: 1rem 0 1rem 1rem;
   }
 
   .name :first-child {
@@ -286,10 +289,35 @@ section {
   }
 
   .skills {
-    margin-top: 17rem;
+    margin-top: 20rem;
   }
 
   .experience {
     margin-top: 0;
+  }
+
+  .footer {
+    height: 55px;
+  }
+}
+
+@media (max-width: 470px) {
+  .basic-header {
+    top: 35rem;
+  }
+  .skills {
+    margin-top: 20rem;
+  }
+}
+
+@media (max-width: 470px) {
+  .basic-header {
+    top: 31rem;
+  }
+}
+
+@media (max-width: 370px) {
+  .basic-header {
+    top: 26rem;
   }
 }
